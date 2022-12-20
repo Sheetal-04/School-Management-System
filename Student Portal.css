@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.part {
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+  padding: 55px;
+  width: 20vw;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.part:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#part-1 {
+  background-color: crimson;
+}
+
+#part-2 {
+  background-color: green;
+}
+
+#part-3 {
+  background-color: blue;
+}
+
+#part-4 {
+  background-color: blueviolet;
+}
+
+#part-5 {
+  background-color: salmon;
+}
+
+#part-6 {
+  background-color: gray;
+}
+
+.logo {
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  flex-wrap: wrap;
+}
+
+.img {
+  margin: 100px;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  border: 2px solid black;
+  margin: 15px;
+  background-color: rgb(162, 105, 105);
+}
+p {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: x-large;
+  border-radius: 15px;
+}

@@ -1,0 +1,81 @@
+/* body {
+  background-image: url(enrollbg.png);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.part-1 {
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(148, 78, 217);
+  
+  
+}
+h2 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+.part-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  border: 2px solid black;
+  margin-left: 0;
+  margin-right: 0;
+}
+label {
+  font-weight: bolder;
+  
+}
+input[type="text"] {
+  padding: 8px;
+  margin: 5px;
+}
+input[type="date"] {
+  padding: 8px;
+  margin: 5px;
+}
+input[type="number"] {
+  padding: 8px;
+  margin: 5px;
+}
+input[type="email"] {
+  padding: 8px;
+  margin: 5px;
+}
+select {
+  padding: 8px;
+  margin: 5px;
+}
+#address{
+    width:50vw;
+    height: 55px;
+}
+#category{
+    width: 31vw;
+}
+#class{
+    width: 31vw;
+}
+#mob{
+    width: 30vw;
+}
+#mail{
+    width: 30vw;
+}
+input[type="submit"]{
+    padding: 12px;
+    margin: 20px;
+    width: 20vw;
+    background-color: rebeccapurple;
+} 
+#submit:hover{
+    cursor: pointer;
+}
+#ideno{
+    width:32vw ;
+}
+#propic{
+    padding: 15px;
+}

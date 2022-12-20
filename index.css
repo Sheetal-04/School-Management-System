@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(118, 43, 126);
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 34px 20px;
+}
+
+.navbar li a {
+  padding: 5px 42px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.search {
+  float: right;
+  padding: 28px 62px;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+nav ul li a {
+  color: rgb(8, 1, 1);
+  font-weight: bolder;
+}
+
+/* nav ul li a:hover {
+  background-color: rosybrown;
+} */
+
+/* nav ul li{
+            position: relative;
+        }
+
+        nav ul ul {
+            position: absolute;
+            top: 60px;
+            display: none;
+        }
+        nav ul li:hover>ul{
+            display: block;
+        } */
+nav ul ul li {
+  display: list-item;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("bg6.jpg") no-repeat center center/cover;
+  height: 642px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+.container {
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  /* border: 2px solid black; */
+}
+.btn {
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+  transition: all  ease-in-out 0.3s;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.btn_main {
+  padding: 10px;
+  background-color: orange;
+}
+h3 {
+  font-weight: bolder;
+  font-size: larger;
+}
+.img-1 {
+  flex-wrap: wrap;
+}
+p{
+  font-weight: bold;
+  font-size: x-large;
+}
+h1{
+  font-size: xx-large;
+}
